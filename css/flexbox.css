@@ -33,17 +33,11 @@
 }
 
 
-
-
-
-
 .rodapePrincipal-patrocinadores .container{
     display: flex;
     justify-content: space-between;
 
 }
-
-
 
 
 .rodapePrincipal-patrocinadores-list{
@@ -59,6 +53,26 @@
 }
 .rodapePrincipal-contatoForm-fieldset{
     display: flex;
+}
+
+.videoSobre .container{
+    display: flex;
+}
+.videoSobre-sobre{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.videoSobre-video{
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+
+.videoSobre-video-list{
+    flex-grow: 2;
+    
 }
 /* Responsive*/
 @media (max-width: 768px) {
@@ -105,6 +119,14 @@
 
 .rodapePrincipal-contatoForm-fieldset{
     justify-content: center;
+}
+
+.headerPrincipal-nav-link-app{
+    order: -1;
+}
+
+.videoSobre .container{
+    flex-direction: column;
 }
 
 }
